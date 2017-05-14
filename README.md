@@ -1,5 +1,5 @@
 # Silex Backend
-Light structure of backend app based on [Silex Framework](https://silex.sensiolabs.org/)
+Light structure for backend app based on [Silex Framework](https://silex.sensiolabs.org/)
 
 Result app is a catalog of movies, with posters and user authorization.
 http://www.omdbapi.com/ is used as test API
