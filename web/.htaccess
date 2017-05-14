@@ -1,0 +1,9 @@
+Header add Access-Control-Allow-Origin "*"
+
+RewriteEngine On
+RewriteBase /
+# Handle Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,NC,L]
+
