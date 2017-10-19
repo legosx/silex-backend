@@ -91,7 +91,7 @@ class Curl
      * @param array $options Curl options
      * @return mixed|null|resource
      */
-    public function request($options = [])
+    public static function request($options = [])
     {
         $ch = curl_init();
         curl_setopt_array($ch, array_diff_key($options, [self::MULTI => true]) + [
